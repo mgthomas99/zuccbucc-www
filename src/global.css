@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Roboto-Regular.ttf";
+  src: url("/www/font/Roboto.ttf");
+  src: url("/www/font/Roboto.ttf") format("truetype");
+}
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.border-none {
+  border: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
